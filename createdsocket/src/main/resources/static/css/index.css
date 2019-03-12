@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #333333;
+}
+
+#loadWindow{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	height: 200px;
+	width: 300px;
+	margin-top: -100px;
+	margin-left: -150px;
+}
+
+#loadWindow input{
+	width: 300px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+#messagePanel{
+	height: 400px;
+}
+
+#messageLeft{
+	float: left;
+	width: 30%;
+	height: 100%;
+	border: 1px solid #000000;
+}
+#friendListTitle{
+	margin: 15px auto;
+	width: 100px;
+	color: #FFFFFF;
+	background-color: #333333;
+	border: 2px solid #FFFFFF;
+}
+#friendList{
+	margin: 20px auto;
+	width: 65%;
+	height: 70%;
+	overflow:auto;
+	color: #00BFFF;
+}
+
+#friendList::-webkit-scrollbar {
+    width: 10px;     
+    height: 1px;
+}
+#friendList::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+}
+#friendList::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}
+
+#friendList li{
+	margin: 10px 0;
+}
+
+#messageRight{
+	float: right;
+	width: 65%;
+	height: 100%;
+	border: 1px solid #000000;
+}
+
+#messageList, #messageSend{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#messageList{
+	height: 60%;
+	overflow:auto;
+}
+
+#messageList::-webkit-scrollbar {
+    width: 10px;     
+    height: 1px;
+}
+#messageList::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+}
+#messageList::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}
+
+#messageList h6{
+	margin-top: 30px;
+	color: #00BFFF;
+}
+
+#messageList p{
+	margin-bottom: 30px;
+	color: #CCCCCC;
+}
+
+.messageNotice{
+	text-align: center;
+	margin: 50px 0;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	font-size: 10px;
+}
+
+#messageSend{
+	height: 40%;
+}
+
+#messageSend textarea{
+	margin: 5px 0;
+	height: 60%;
+	width: 100%;
+	font-family: "微软雅黑";
+	border-radius: 3px;
+	resize: none;
+	background-color: #EDEDED;
+}
+
+#messageSend input{
+	float: right;
+	height: 23px;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+#sendNotice{
+	color: #CCCCCC;
+}
+
+#sendNoticeModify{
+	color: #535353;
+}
