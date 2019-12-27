@@ -1,0 +1,2 @@
+# createdsocket
+一个简单的web聊天室，使用到了springboot提供的websocket连接
